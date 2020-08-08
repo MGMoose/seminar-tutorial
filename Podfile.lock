@@ -1,0 +1,49 @@
+PODS:
+  - IBMWatsonPersonalityInsightsV3 (1.4.0):
+    - IBMWatsonRestKit (~> 2.0.0)
+  - IBMWatsonRestKit (2.0.0)
+  - MessageInputBar (0.4.1):
+    - MessageInputBar/Core (= 0.4.1)
+  - MessageInputBar/Core (0.4.1)
+  - MessageKit (2.0.0):
+    - MessageInputBar/Core
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - SwiftyJSON (4.2.0)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - IBMWatsonPersonalityInsightsV3
+  - MessageInputBar
+  - MessageKit
+  - NVActivityIndicatorView
+  - SwiftyJSON (~> 4.0)
+  - TwitterKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IBMWatsonPersonalityInsightsV3
+    - IBMWatsonRestKit
+    - MessageInputBar
+    - MessageKit
+    - NVActivityIndicatorView
+    - SwiftyJSON
+    - TwitterCore
+    - TwitterKit
+
+SPEC CHECKSUMS:
+  IBMWatsonPersonalityInsightsV3: 9c1308b91d44812d18cf6ccd889b8bf0fcc1e1ff
+  IBMWatsonRestKit: 0a8d0f2f1cc757a0231729e9206e0b774cda0997
+  MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
+  MessageKit: 29c1c87e5a396d2ca7a3f712e5171dc9aba42a1e
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: 60cfb4fdd32211765380b46cde0bc03911e14fcc
+
+COCOAPODS: 1.6.1

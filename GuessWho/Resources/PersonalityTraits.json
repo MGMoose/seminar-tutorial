@@ -1,0 +1,216 @@
+{
+    "personality": {
+        "Friendliness": {
+            "Big5": "Extraversion",
+            "LowTerm": "Reserved",
+            "HighTerm": "Outgoing",
+            "LowDescription": "private person don't let many people in",
+            "HighDescription": "make friends easily feel comfortable around other people"
+        },
+        "Gregariousness": {
+            "Big5": "Extraversion",
+            "LowTerm": "Independent",
+            "HighTerm": "Sociable",
+            "LowDescription": "have a strong desire to have time to yourself",
+            "HighDescription": "enjoy being in the company of others"
+        },
+        "Assertiveness": {
+            "Big5": "Extraversion",
+            "LowTerm": "Demure",
+            "HighTerm": "Assertive",
+            "LowDescription": "listen than to talk, especially in group situations",
+            "HighDescription": "tend to speak up take charge of situations, comfortable leading groups"
+        },
+        "Activity-level": {
+            "Big5": "Extraversion",
+            "LowTerm": "Laid-back",
+            "HighTerm": "Energetic",
+            "LowDescription": "appreciate a relaxed pace in life",
+            "HighDescription": "enjoy a fast-paced, busy schedule with many activities"
+        },
+        "Excitement-seeking": {
+            "Big5": "Extraversion",
+            "LowTerm": "Calm-seeking",
+            "HighTerm": "Excitement-seeking",
+            "LowDescription": "activities that quiet, calm, safe",
+            "HighDescription": "excited by taking risks feel bored without lots of action going on"
+        },
+        "Cheerfulness": {
+            "Big5": "Extraversion",
+            "LowTerm": "Solemn",
+            "HighTerm": "Cheerful",
+            "LowDescription": "generally serious do not joke much",
+            "HighDescription": "joyful person who joy with the world"
+        },
+        "Trust": {
+            "Big5": "Agreeableness",
+            "LowTerm": "Cautious of others",
+            "HighTerm": "Trusting of others",
+            "LowDescription": "wary of other people's intentions do not trust easily",
+            "HighDescription": "believe the best in others trust people easily"
+        },
+        "Cooperation": {
+            "Big5": "Agreeableness",
+            "LowTerm": "Contrary",
+            "HighTerm": "Accommodating",
+            "LowDescription": "do not shy away from contradicting others",
+            "HighDescription": "easy to please try to avoid confrontation"
+        },
+        "Altruism": {
+            "Big5": "Agreeableness",
+            "LowTerm": "Self-focused",
+            "HighTerm": "Altruistic",
+            "LowDescription": "more concerned with taking cof yourself than taking time for others",
+            "HighDescription": "feel fulfilled when helping others, will go out of your way to do so"
+        },
+        "Morality": {
+            "Big5": "Agreeableness",
+            "LowTerm": "Compromising",
+            "HighTerm": "Uncompromising",
+            "LowDescription": "comfortable using every trick in the book to get what want",
+            "HighDescription": "wrong to take advantage of others to get ahead"
+        },
+        "Modesty": {
+            "Big5": "Agreeableness",
+            "LowTerm": "Proud",
+            "HighTerm": "Modest",
+            "LowDescription": "hold yourself in high regard, satisfied with who are",
+            "HighDescription": "uncomfortable being the center of attention"
+        },
+        "Sympathy": {
+            "Big5": "Agreeableness",
+            "LowTerm": "Hardened",
+            "HighTerm": "Empathetic",
+            "LowDescription": "that people should generally rely more on themselves than on other people",
+            "HighDescription": "feel what others feel compassionate towards them"
+        },
+        "Self-efficacy": {
+            "Big5": "Conscientiousness",
+            "LowTerm": "Self-doubting",
+            "HighTerm": "Self-assured",
+            "LowDescription": "frequently doubt your ability to achieve your goals",
+            "HighDescription": "feel have the ability to succeed in the tasks set out to do"
+        },
+        "Orderliness": {
+            "Big5": "Conscientiousness",
+            "LowTerm": "Unstructured",
+            "HighTerm": "Organized",
+            "LowDescription": "do not make a lot of time for organization in your daily life",
+            "HighDescription": "feel a strong need for structure in your life"
+        },
+        "Dutifulness": {
+            "Big5": "Conscientiousness",
+            "LowTerm": "Carefree",
+            "HighTerm": "Dutiful",
+            "LowDescription": "do what want, disregarding rules obligations",
+            "HighDescription": "take rules obligations seriously, even when they're inconvenient"
+        },
+        "Achievement-striving": {
+            "Big5": "Conscientiousness",
+            "LowTerm": "Content",
+            "HighTerm": "Driven",
+            "LowDescription": "content with your level of accomplishment do not feel the need to set ambitious goals",
+            "HighDescription": "have high goals for yourself work hard to achieve them"
+        },
+        "Self-discipline": {
+            "Big5": "Conscientiousness",
+            "LowTerm": "Intermittent",
+            "HighTerm": "Persistent",
+            "LowDescription": "have a hard time sticking with difficult tasks for a long period of time",
+            "HighDescription": "can tackle stick with tough tasks"
+        },
+        "Cautiousness": {
+            "Big5": "Conscientiousness",
+            "LowTerm": "Bold",
+            "HighTerm": "Deliberate",
+            "LowDescription": "would rather take action immediately than spend time deliberating making a decision",
+            "HighDescription": "carefully through decisions before making them"
+        },
+        "Anxiety": {
+            "Big5": "Neuroticism",
+            "LowTerm": "Self-assured",
+            "HighTerm": "Prone to worry",
+            "LowDescription": "tend to feel calm self-assured",
+            "HighDescription": "tend to worry about things that might happen"
+        },
+        "Anger": {
+            "Big5": "Neuroticism",
+            "LowTerm": "Mild-tempered",
+            "HighTerm": "Fiery",
+            "LowDescription": "takes a lot to get angry",
+            "HighDescription": "have a fiery temper, especially when things do not go your way"
+        },
+        "Depression": {
+            "Big5": "Neuroticism",
+            "LowTerm": "Content",
+            "HighTerm": "Melancholy",
+            "LowDescription": "generally comfortable with yourself as are",
+            "HighDescription": "quite often about the things unhappy about"
+        },
+        "Self-consciousness": {
+            "Big5": "Neuroticism",
+            "LowTerm": "Confident",
+            "HighTerm": "Self-conscious",
+            "LowDescription": "hard to embarrass self-confident most of the time",
+            "HighDescription": "sensitive about what others might be thinking about you"
+        },
+        "Immoderation": {
+            "Big5": "Neuroticism",
+            "LowTerm": "Self-controlled",
+            "HighTerm": "Hedonistic",
+            "LowDescription": "have control over your desires, which not particularly intense",
+            "HighDescription": "feel your desires strongly easily tempted by them"
+        },
+        "Vulnerability": {
+            "Big5": "Neuroticism",
+            "LowTerm": "Calm under pressure",
+            "HighTerm": "Susceptible to stress",
+            "LowDescription": "handle unexpected events calmly effectively",
+            "HighDescription": "easily overwhelmed in stressful situations"
+        },
+        "Imagination": {
+            "Big5": "Openness",
+            "LowTerm": "Down-to-earth",
+            "HighTerm": "Imaginative",
+            "LowDescription": "facts over fantasy",
+            "HighDescription": "have a wild imagination"
+        },
+        "Artistic-interests": {
+            "Big5": "Openness",
+            "LowTerm": "Unconcerned with art",
+            "HighTerm": "Appreciative of art",
+            "LowDescription": "less concerned with artistic or creative activities than most people who participated in our surveys",
+            "HighDescription": "enjoy beauty seek out creative experiences"
+        },
+        "Emotionality": {
+            "Big5": "Openness",
+            "LowTerm": "Dispassionate",
+            "HighTerm": "Emotionally aware",
+            "LowDescription": "do not frequently about or openly express your emotions",
+            "HighDescription": "awof your feelings how to express them"
+        },
+        "Adventurousness": {
+            "Big5": "Openness",
+            "LowTerm": "Consistent",
+            "HighTerm": "Adventurous",
+            "LowDescription": "enjoy familiar routines not to deviate from them",
+            "HighDescription": "eager to experience new things"
+        },
+        "Intellect": {
+            "Big5": "Openness",
+            "LowTerm": "Concrete",
+            "HighTerm": "Philosophical",
+            "LowDescription": "dealing with the world as is, rarely considering abstract ideas",
+            "HighDescription": "open to intrigued by new ideas love to explore them"
+        },
+        "Liberalism": {
+            "Big5": "Openness",
+            "LowTerm": "Respectful of authority",
+            "HighTerm": "Authority-challenging",
+            "LowDescription": "following with tradition in order to maintain a sense of stability",
+            "HighDescription": "challenge authority traditional values to help bring about positive changes"
+        }
+    }
+}
+
+

@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34FD38ED4EA938F6E417D3EA /* Pods_GuessWho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B269A3F1463D234727B5056 /* Pods_GuessWho.framework */; };
+		B63724962253ADE10040C33C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63724952253ADE10040C33C /* AppDelegate.swift */; };
+		B63724982253ADE10040C33C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63724972253ADE10040C33C /* ViewController.swift */; };
+		B637249B2253ADE10040C33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63724992253ADE10040C33C /* Main.storyboard */; };
+		B637249D2253ADE20040C33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B637249C2253ADE20040C33C /* Assets.xcassets */; };
+		B63724A02253ADE20040C33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B637249E2253ADE20040C33C /* LaunchScreen.storyboard */; };
+		B63724A82253AEFF0040C33C /* TwitterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63724A72253AEFF0040C33C /* TwitterService.swift */; };
+		B63724AC2253F8F90040C33C /* PersonalityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63724AB2253F8F90040C33C /* PersonalityService.swift */; };
+		B63724AE225403A10040C33C /* PersonalityTraits.json in Resources */ = {isa = PBXBuildFile; fileRef = B63724AD225403A10040C33C /* PersonalityTraits.json */; };
+		B63724B0225467D00040C33C /* LuisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63724AF225467D00040C33C /* LuisService.swift */; };
+		B69F1CF5225D17DD00821884 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F1CF4225D17DD00821884 /* Utils.swift */; };
+		B69F1CF7225D1BC300821884 /* EnvVariables.plist in Resources */ = {isa = PBXBuildFile; fileRef = B69F1CF6225D1BC300821884 /* EnvVariables.plist */; };
+		B69F1CF9225D455600821884 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F1CF8225D455600821884 /* Constants.swift */; };
+		B6EA661222565EE2007DC1B4 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA661122565EE2007DC1B4 /* ChatMessage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D88BE73724C72D3CFE29A99 /* Pods-GuessWho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessWho.release.xcconfig"; path = "Target Support Files/Pods-GuessWho/Pods-GuessWho.release.xcconfig"; sourceTree = "<group>"; };
+		7B269A3F1463D234727B5056 /* Pods_GuessWho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessWho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63724922253ADE10040C33C /* GuessWho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessWho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63724952253ADE10040C33C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B63724972253ADE10040C33C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B637249A2253ADE10040C33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B637249C2253ADE20040C33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B637249F2253ADE20040C33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B63724A12253ADE20040C33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63724A72253AEFF0040C33C /* TwitterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterService.swift; sourceTree = "<group>"; };
+		B63724AB2253F8F90040C33C /* PersonalityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityService.swift; sourceTree = "<group>"; };
+		B63724AD225403A10040C33C /* PersonalityTraits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PersonalityTraits.json; sourceTree = "<group>"; };
+		B63724AF225467D00040C33C /* LuisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuisService.swift; sourceTree = "<group>"; };
+		B69F1CF4225D17DD00821884 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B69F1CF6225D1BC300821884 /* EnvVariables.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EnvVariables.plist; sourceTree = "<group>"; };
+		B69F1CF8225D455600821884 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B6EA661122565EE2007DC1B4 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		D7151001D452B2329390923B /* Pods-GuessWho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessWho.debug.xcconfig"; path = "Target Support Files/Pods-GuessWho/Pods-GuessWho.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B637248F2253ADE10040C33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FD38ED4EA938F6E417D3EA /* Pods_GuessWho.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72F334B47B540006CC996214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B269A3F1463D234727B5056 /* Pods_GuessWho.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CD10B1F6795ED2C7900EF76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7151001D452B2329390923B /* Pods-GuessWho.debug.xcconfig */,
+				6D88BE73724C72D3CFE29A99 /* Pods-GuessWho.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B63724892253ADE10040C33C = {
+			isa = PBXGroup;
+			children = (
+				B63724942253ADE10040C33C /* GuessWho */,
+				B63724932253ADE10040C33C /* Products */,
+				7CD10B1F6795ED2C7900EF76 /* Pods */,
+				72F334B47B540006CC996214 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B63724932253ADE10040C33C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B63724922253ADE10040C33C /* GuessWho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63724942253ADE10040C33C /* GuessWho */ = {
+			isa = PBXGroup;
+			children = (
+				B63724952253ADE10040C33C /* AppDelegate.swift */,
+				B63724972253ADE10040C33C /* ViewController.swift */,
+				B6EA661122565EE2007DC1B4 /* ChatMessage.swift */,
+				B69F1CFA225D457300821884 /* Services */,
+				B69F1CFB225D459F00821884 /* Helpers */,
+				B69F1CFC225D45E400821884 /* Resources */,
+			);
+			path = GuessWho;
+			sourceTree = "<group>";
+		};
+		B69F1CFA225D457300821884 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B63724A72253AEFF0040C33C /* TwitterService.swift */,
+				B63724AB2253F8F90040C33C /* PersonalityService.swift */,
+				B63724AF225467D00040C33C /* LuisService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B69F1CFB225D459F00821884 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B69F1CF4225D17DD00821884 /* Utils.swift */,
+				B69F1CF8225D455600821884 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B69F1CFC225D45E400821884 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B63724992253ADE10040C33C /* Main.storyboard */,
+				B637249C2253ADE20040C33C /* Assets.xcassets */,
+				B637249E2253ADE20040C33C /* LaunchScreen.storyboard */,
+				B63724A12253ADE20040C33C /* Info.plist */,
+				B63724AD225403A10040C33C /* PersonalityTraits.json */,
+				B69F1CF6225D1BC300821884 /* EnvVariables.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B63724912253ADE10040C33C /* GuessWho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63724A42253ADE20040C33C /* Build configuration list for PBXNativeTarget "GuessWho" */;
+			buildPhases = (
+				B1EB862264EFEAF87D5FCC3F /* [CP] Check Pods Manifest.lock */,
+				B637248E2253ADE10040C33C /* Sources */,
+				B637248F2253ADE10040C33C /* Frameworks */,
+				B63724902253ADE10040C33C /* Resources */,
+				874CF064C7BCA5F6919C8BD7 /* [CP] Embed Pods Frameworks */,
+				51464BCBB7FFAAA660EAD5B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessWho;
+			productName = GuessWho;
+			productReference = B63724922253ADE10040C33C /* GuessWho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B637248A2253ADE10040C33C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = devHamza;
+				TargetAttributes = {
+					B63724912253ADE10040C33C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B637248D2253ADE10040C33C /* Build configuration list for PBXProject "GuessWho" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B63724892253ADE10040C33C;
+			productRefGroup = B63724932253ADE10040C33C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B63724912253ADE10040C33C /* GuessWho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B63724902253ADE10040C33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63724A02253ADE20040C33C /* LaunchScreen.storyboard in Resources */,
+				B637249D2253ADE20040C33C /* Assets.xcassets in Resources */,
+				B63724AE225403A10040C33C /* PersonalityTraits.json in Resources */,
+				B637249B2253ADE10040C33C /* Main.storyboard in Resources */,
+				B69F1CF7225D1BC300821884 /* EnvVariables.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51464BCBB7FFAAA660EAD5B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessWho/Pods-GuessWho-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuessWho/Pods-GuessWho-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874CF064C7BCA5F6919C8BD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessWho/Pods-GuessWho-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonPersonalityInsightsV3/PersonalityInsights.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonRestKit/RestKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PersonalityInsights.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuessWho/Pods-GuessWho-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1EB862264EFEAF87D5FCC3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessWho-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B637248E2253ADE10040C33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63724982253ADE10040C33C /* ViewController.swift in Sources */,
+				B63724AC2253F8F90040C33C /* PersonalityService.swift in Sources */,
+				B63724B0225467D00040C33C /* LuisService.swift in Sources */,
+				B69F1CF5225D17DD00821884 /* Utils.swift in Sources */,
+				B6EA661222565EE2007DC1B4 /* ChatMessage.swift in Sources */,
+				B63724962253ADE10040C33C /* AppDelegate.swift in Sources */,
+				B63724A82253AEFF0040C33C /* TwitterService.swift in Sources */,
+				B69F1CF9225D455600821884 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B63724992253ADE10040C33C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B637249A2253ADE10040C33C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B637249E2253ADE20040C33C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B637249F2253ADE20040C33C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B63724A22253ADE20040C33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B63724A32253ADE20040C33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B63724A52253ADE20040C33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7151001D452B2329390923B /* Pods-GuessWho.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessWho/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devHamza.GuessWho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B63724A62253ADE20040C33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D88BE73724C72D3CFE29A99 /* Pods-GuessWho.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessWho/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devHamza.GuessWho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B637248D2253ADE10040C33C /* Build configuration list for PBXProject "GuessWho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63724A22253ADE20040C33C /* Debug */,
+				B63724A32253ADE20040C33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63724A42253ADE20040C33C /* Build configuration list for PBXNativeTarget "GuessWho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63724A52253ADE20040C33C /* Debug */,
+				B63724A62253ADE20040C33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B637248A2253ADE10040C33C /* Project object */;
+}
